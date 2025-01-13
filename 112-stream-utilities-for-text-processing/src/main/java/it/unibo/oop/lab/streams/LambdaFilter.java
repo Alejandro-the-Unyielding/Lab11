@@ -79,7 +79,7 @@ public final class LambdaFilter extends JFrame {
         centralPanel.add(right);
         panel1.add(centralPanel, BorderLayout.CENTER);
         final JButton apply = new JButton("Apply");
-        apply.addActionListener(ev ->
+        apply.addActionListener(_ ->
             right.setText(
                 ((Command) Objects.requireNonNull(combo.getSelectedItem()))
                     .translate(left.getText())
