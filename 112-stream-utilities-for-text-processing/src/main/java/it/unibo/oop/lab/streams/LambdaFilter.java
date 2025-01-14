@@ -35,6 +35,7 @@ import javax.swing.JTextArea;
  * 5) Write the count for each word, e.g. "word word pippo" should output "pippo -> 1 word -> 2"
  *
  */
+@SuppressWarnings("unused")
 public final class LambdaFilter extends JFrame {
 
     @Serial
